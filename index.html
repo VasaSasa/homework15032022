@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>JavaScript Homeworks</title>
+</head>
+<body>
+    <header><h1>JS Homework 15032022</h1></header>
+
+<article>
+  <h2>Tasks in which you want to use FOR.<br>1. Display all numbers from 1 to 100, which are multiples of the 
+    number specified by the user.</h2>
+
+  <section>
+          
+          <pre>
+let userNumber = Number(prompt("Write down number which want to use for multiplication."));
+for (let i = 1;i <= 100; i = i + 1) {
+    console.log(`${i} x ${userNumber} = ${i * userNumber}`);
+}     
+          </pre>
+        
+  </section>
+
+
+</article>
+
+
+<article>
+    <h2>2. Output each 4th element from the user-specified range. The user 
+      specifies the minimum and maximum range values.</h2>
+  
+    <section>
+      
+        <pre>
+let userMinNumber = Number(prompt("Enter number for minimum value of range: "));
+let userMaxNumber = Number(prompt("Enter number for maximum value of range: "));
+for (let i = userMinNumber - 1; i <= userMaxNumber; i = i + 4) {
+    console.log("4th element is " + i);
+}
+        </pre>
+      
+  
+    </section>
+  
+  
+  </article>
+
+  <article>
+    <h2>Tasks in which you want to use WHILE.<br>1. Output # as many times as the user specified.</h2>
+  
+    <section>
+      <pre>
+let userCommand = Number(prompt("How many times would you like to show „#“ ?"));
+while (userCommand > 0) {
+    console.log(" # ");
+    userCommand --;      // userCommand -= 1; , userCommand = userCommand - 1;
+}
+  
+      </pre>
+  
+    </section>
+  
+  
+  </article>
+
+
+
+
+  <article>
+    <h2>2. The user entered a number, and all numbers from the entered 
+      one to 0 must be displayed.</h2>
+  
+    <section>
+      <pre>
+let userNumber = Number(prompt("Enter number."));
+while (userNumber >= 0) {
+    console.log(userNumber);
+    userNumber --;
+}
+  
+  
+      </pre>
+  
+    </section>
+  
+  
+  </article>
+  
+  
+  <article>
+      <h2>3. Loop the calculator. Ask the user for 2 numbers and a sign, solve 
+        the problem, print the result, and ask if they wants to solve one 
+        more problem. And so on until the user refuses.</h2>
+    
+    
+      <section>
+        <pre class="calculator">
+let userWish = prompt("Would you like to start to count?")
+
+while (userWish == "yes") {
+    let firstNum = Number(prompt("Enter first number."));
+    let secondNum = Number(prompt("Enter second number."));
+    let sign = prompt("Enter mathematical operation");
+    if (sign == "+") {
+        console.log(firstNum + secondNum);
+    } else if (sign == "-" ) {
+        console.log(firstNum - secondNum);
+    } else if (sign == "*") {
+        console.log(firstNum * secondNum);
+    } else if (sign == "/" && secondNum != 0) {
+        console.log(firstNum / secondNum);
+    } else if (sign == "/" && secondNum == 0) {
+        console.log("You can not divide by zero!!!")
+    } else {
+        console.log("You did not enter mathematical operation.");
+    }
+    userWish = prompt("Would you like to proceed?")
+    }
+          
+console.log("End of program")
+    
+        </pre>
+    
+      </section>
+    
+    
+    </article>
+  
+    <article>
+      <h2>Tasks in which you want to use .......<br>1.</h2>
+    
+      <section>
+        <pre>
+          solution
+              
+    
+        </pre>
+    
+      </section>
+    
+    
+    </article>
+  
+    <article>
+      <h2>2.</h2>
+    
+      <section>
+        <pre>
+    
+            solution
+    
+    
+        </pre>
+    
+      </section>
+    
+    
+    </article>
+    
+    
+    <article>
+        <h2>Tasks in which you .....<br> 1. Ask for 2 numbers and output the greater one. </h2>
+      
+        <section>
+          <pre>
+      
+                solution
+      
+          </pre>
+      
+        </section>
+      
+      
+      </article>
+    
+      <article>
+        <h2>2.</h2>
+      
+        <section>
+          <pre>
+      
+                solution
+      
+          </pre>
+      
+        </section>
+      
+      
+      </article>
+    
+      <article>
+        <h2>3. </h2>
+      
+        <section>
+          <pre>
+
+
+              solution
+      
+          </pre>
+      
+        </section>
+      
+      
+      </article>
+
+<footer><h1>&copy Václav Doležal</h1></footer>
+</body>
+<script src="script.js"></script>
+</html>

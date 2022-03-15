@@ -1,0 +1,58 @@
+header {
+    width: 70;
+    height:80px;
+    background-color: #3f37c9;
+    text-align: center;
+    color: #250020;
+    padding: 15px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 86px;
+    margin-right: 86px;
+    border: 25px solid #4cc9f0;
+    /* border-radius: 15%; */
+    border-radius: 3em;
+}
+
+p {
+    width:90;
+    height: 350px;
+    font-size: 30px;
+    text-align: left;
+    margin-top: 60px;                          /* p  v html nepoužito!!!! */
+    margin-bottom: 100px;
+    margin-left: 80px;
+    margin-right: 80px;
+    background-color: brown;
+    padding: 20px;
+    /* line-height: 180px; */
+
+}
+
+
+pre {
+    width: 90;
+    height: 350px;
+    font-size: 30px;
+    text-align: left;
+    margin-top: 60px;
+    margin-bottom: 100px;
+    margin-left: 80px;
+    margin-right: 80px;
+    background-color: brown;
+    padding: 10px;
+}
+
+
+footer {
+    background-color: #3f37c9;
+    text-align: center;
+    font-size: 30px;
+
+    padding: 10px;
+    color:rgba(200, 100, 100, 0.5)
+}
+
+.calculator {
+    height: 850px;
+}
